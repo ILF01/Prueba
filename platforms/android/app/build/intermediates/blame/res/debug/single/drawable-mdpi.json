@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\background.png",
+        "source": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\background.png"
+    },
+    {
+        "merged": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\icon.png",
+        "source": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\apple.png",
+        "source": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\apple.png"
+    },
+    {
+        "merged": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\camarachica.png",
+        "source": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\camarachica.png"
+    },
+    {
+        "merged": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\camaratrans.png",
+        "source": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\camaratrans.png"
+    },
+    {
+        "merged": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\camaraicono.png",
+        "source": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\camaraicono.png"
+    },
+    {
+        "merged": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\logo.png",
+        "source": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\logo.png"
+    }
+]

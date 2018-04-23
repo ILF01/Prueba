@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\camaraaa.jpg",
+        "source": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\src\\main\\res\\drawable-ldpi\\camaraaa.jpg"
+    },
+    {
+        "merged": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\paisaje.jpg",
+        "source": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\src\\main\\res\\drawable-ldpi\\paisaje.jpg"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\icon.png",
+        "source": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\camaraicono.png",
+        "source": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\src\\main\\res\\drawable-ldpi\\camaraicono.png"
+    },
+    {
+        "merged": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\background.png",
+        "source": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\src\\main\\res\\drawable-ldpi\\background.png"
+    },
+    {
+        "merged": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\camarachica.png",
+        "source": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\src\\main\\res\\drawable-ldpi\\camarachica.png"
+    },
+    {
+        "merged": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\apple.png",
+        "source": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\src\\main\\res\\drawable-ldpi\\apple.png"
+    },
+    {
+        "merged": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\logo.png",
+        "source": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\src\\main\\res\\drawable-ldpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\camaratrans.png",
+        "source": "C:\\Users\\ileon\\Desktop\\nativescript\\Prueba\\platforms\\android\\app\\src\\main\\res\\drawable-ldpi\\camaratrans.png"
+    }
+]
