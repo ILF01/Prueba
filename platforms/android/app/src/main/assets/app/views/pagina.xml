@@ -39,6 +39,7 @@ https://docs.nativescript.org/ui/components.
         <Label text="{{ hora }}" class="h3 text-center"/>
         <Label text="{{ fecha }}" class="h3 text-center"/>    
         <Button text="Volver" tap="{{ volver }}" class="btn"/>
+        <Button text="Actualizar" tap="{{ actualizar }}" class="btn"/>
         
     </StackLayout>
 </Page>
