@@ -14,7 +14,15 @@ function createViewModel(usuario, contra) {
     
     viewModel.volver = function(){
         var topmost = frameModdule.topmost();
-        topmost.goBack();
+            const navigationEntry = {
+                moduleName: "main-page",
+                context: {usuario, contra},
+                animated: false,
+
+                clearHistory:false
+            };
+
+            topmost.navigate(navigationEntry);
 
     }
     viewModel.actualizar = function(){
