@@ -14,6 +14,18 @@ function createViewModel(usuario, contra) {
         topmost.goBack();
 
     }
+    viewModel.actualizar = function(){
+        var topmost = frameModdule.topmost();
+            const navigationEntry = {
+                moduleName: "views/pagina",
+                context: {usuario, contra},
+                animated: false,
+
+                clearHistory:false
+            };
+
+            topmost.navigate(navigationEntry);
+    }
 
     return viewModel;
 }

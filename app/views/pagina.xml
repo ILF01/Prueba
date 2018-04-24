@@ -14,6 +14,8 @@ https://docs.nativescript.org/ui/components.
         <NavigationButton text="Go Back" android.systemIcon="ic_menu_back" tap="{{volver}}"/>
             <ActionItem tap="onDelete"
                 text="Volver" android.position="popup" tap="{{volver}}"></ActionItem>
+            <ActionItem tap="actualizar"
+                text="Actualizar" android.position="popup" tap="{{actualizar}}"></ActionItem>
         </ActionBar>
     </Page.actionBar>
     <!--
