@@ -7,8 +7,11 @@ function createViewModel(usuario, contra) {
 
     viewModel.set("usuario","Usuario: " + usuario);
     viewModel.set("contra","Contraseña: " + contra);
-   viewModel.set("fecha","Fecha: " + date.getDate() + "/" + (date.getMonth() + 1) + "/" + date.getFullYear() + " " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds());
-    console.log(date.getDate() + "/" + (date.getMonth()+ 1) + "/" + date.getFullYear() + " " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds());
+    viewModel.set("hora","Hora: "  + " " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds());
+    console.log(date.getDate() + "/" + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds());
+    viewModel.set("fecha","Fecha: " + date.getDate() + "/" + (date.getMonth() + 1) + "/" + date.getFullYear());
+    console.log(date.getDate() + "/" + (date.getMonth()+ 1) + "/" + date.getFullYear() + " " + date.getHours());
+    
     viewModel.volver = function(){
         var topmost = frameModdule.topmost();
         topmost.goBack();

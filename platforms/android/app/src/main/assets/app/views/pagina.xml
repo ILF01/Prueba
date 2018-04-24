@@ -36,6 +36,7 @@ https://docs.nativescript.org/ui/components.
         <Label text="Gracias por su registro" class="h3 text-center"/> 
         <Label text="{{ usuario }}" class="h3 text-center"/>   
         <Label text="{{ contra }}" class="h3 text-center"/> 
+        <Label text="{{ hora }}" class="h3 text-center"/>
         <Label text="{{ fecha }}" class="h3 text-center"/>    
         <Button text="Volver" tap="{{ volver }}" class="btn"/>
         
