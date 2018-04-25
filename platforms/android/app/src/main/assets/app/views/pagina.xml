@@ -34,10 +34,15 @@ https://docs.nativescript.org/ui/components.
              <Image src="~/images/camaradibujo-iloveimg-resized.jpg" stretch= "none"></Image>
         </StackLayout>
         <Label text="Gracias por su registro" class="h3 text-center"/> 
-        <Label text="{{ usuario }}" class="h3 text-center label font-weight-bold m-b-5"/>   
+        <StackLayout class="hr-dark m-5"></StackLayout>
+        <Label text="{{ usuario }}" class="h3 text-center"/> 
+        <StackLayout class="hr-dark m-5"></StackLayout>  
         <Label text="{{ contra }}" class="h3 text-center"/> 
+        <StackLayout class="hr-dark m-5"></StackLayout>
         <Label text="{{ hora }}" class="h3 text-center"/>
-        <Label text="{{ fecha }}" class="h3 text-center"/>    
+        <StackLayout class="hr-dark m-5"></StackLayout>
+        <Label text="{{ fecha }}" class="h3 text-center"/> 
+        <StackLayout class="hr-dark m-5"></StackLayout>   
         <Button text="Volver" tap="{{ volver }}" class="btn btn-primary btn-rounded-lg"/>
         <Button text="Recargar" tap="{{ recargar }}" class="btn btn-primary btn-rounded-lg"/>
         

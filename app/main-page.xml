@@ -33,9 +33,11 @@ https://docs.nativescript.org/ui/components.
         <StackLayout orientation="horizontal" android:horizontalAlignment="center">
              <Image src="~/images/camaradibujo-iloveimg-resized.jpg" stretch= "none"></Image>
         </StackLayout>
-        <Label text="Usuario:" class="h2 text-center"/>
+        <Label text="Usuario:" class="h2 text-center"/> 
+        <StackLayout class="hr-light m-5"></StackLayout>               
         <TextField id="usuario" text="{{ usuario }}"/>
         <Label text="Contraseña:" class="h2 text-center"/>
+        <StackLayout class="hr-light m-5"></StackLayout>
         <TextField id="contra" text="{{ contra }}" secure= "true" />
         <Button text="Aceptar" tap="{{ onTap }}" class="btn btn-primary btn-rounded-lg"/>
         <Button text="Limpiar" tap="{{ limpia }}" class="btn btn-primary btn-rounded-lg"/>
