@@ -15,7 +15,7 @@ https://docs.nativescript.org/ui/components.
             <ActionItem tap="onDelete"
                 text="Volver" android.position="popup" tap="{{volver}}"></ActionItem>
             <ActionItem tap="actualizar"
-                text="Actualizar" android.position="popup" tap="{{actualizar}}"></ActionItem>
+                text="Recargar" android.position="popup" tap="{{recargar}}"></ActionItem>
         </ActionBar>
     </Page.actionBar>
     <!--
@@ -29,17 +29,17 @@ https://docs.nativescript.org/ui/components.
     core theme, such as p-20, btn, h2, and text-center. You can view a full list of the
     class names available for styling your app at https://docs.nativescript.org/ui/theme.
     -->
-    <StackLayout class="vertical p-20">
+    <StackLayout class="vertical p-20 form">
         <StackLayout orientation="horizontal" android:horizontalAlignment="center">
              <Image src="~/images/camaradibujo-iloveimg-resized.jpg" stretch= "none"></Image>
         </StackLayout>
         <Label text="Gracias por su registro" class="h3 text-center"/> 
-        <Label text="{{ usuario }}" class="h3 text-center"/>   
+        <Label text="{{ usuario }}" class="h3 text-center label font-weight-bold m-b-5"/>   
         <Label text="{{ contra }}" class="h3 text-center"/> 
         <Label text="{{ hora }}" class="h3 text-center"/>
         <Label text="{{ fecha }}" class="h3 text-center"/>    
-        <Button text="Volver" tap="{{ volver }}" class="btn"/>
-        <Button text="Actualizar" tap="{{ actualizar }}" class="btn"/>
+        <Button text="Volver" tap="{{ volver }}" class="btn btn-primary btn-rounded-lg"/>
+        <Button text="Recargar" tap="{{ recargar }}" class="btn btn-primary btn-rounded-lg"/>
         
     </StackLayout>
 </Page>

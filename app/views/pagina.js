@@ -22,6 +22,8 @@ function onNavigatingTo(args) {
     var usuario = context.usuario;
     var contra = context.contra;
 
+    
+
     //recojo variable
     // 
 

@@ -7,6 +7,7 @@ function createViewModel(usuario, contra) {
 
     viewModel.set("usuario","Usuario: " + usuario);
     viewModel.set("contra","Contraseña: " + contra);
+    
     viewModel.set("hora","Hora: "  + " " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds());
     console.log(date.getDate() + "/" + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds());
     viewModel.set("fecha","Fecha: " + date.getDate() + "/" + (date.getMonth() + 1) + "/" + date.getFullYear());
@@ -25,7 +26,7 @@ function createViewModel(usuario, contra) {
             topmost.navigate(navigationEntry);
 
     }
-    viewModel.actualizar = function(){
+    viewModel.recargar = function(){
         var topmost = frameModdule.topmost();
             const navigationEntry = {
                 moduleName: "views/pagina",

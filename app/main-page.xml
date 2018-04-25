@@ -37,10 +37,10 @@ https://docs.nativescript.org/ui/components.
         <TextField id="usuario" text="{{ usuario }}"/>
         <Label text="Contraseña:" class="h2 text-center"/>
         <TextField id="contra" text="{{ contra }}" secure= "true" />
-        <Button text="Aceptar" tap="{{ onTap }}" class="btn "/>
-        <Button text="Limpiar" tap="{{ limpia }}" class="btn "/>
-        <Button text="Auto Rellenar" tap="{{ auto }}" class="btn "/>
-        <Button text="Registrarse" tap="{{ registrar }}" class="btn "/>
+        <Button text="Aceptar" tap="{{ onTap }}" class="btn btn-primary btn-rounded-lg"/>
+        <Button text="Limpiar" tap="{{ limpia }}" class="btn btn-primary btn-rounded-lg"/>
+        <Button text="Auto Rellenar" tap="{{ auto }}" class="btn btn-primary btn-rounded-lg"/>
+        <Button text="Registrarse" tap="{{ registrar }}" class="btn btn-primary btn-rounded-lg"/>
         <Label text="{{ message }}" class="h2 text-center" textWrap="true"/>
     </StackLayout>
     </ScrollView>
