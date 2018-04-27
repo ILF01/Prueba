@@ -22,25 +22,46 @@ components that have the btn class name.
     font-size: 18;
     background-color:yellowgreen;
     color: black;
+    font-weight: bold;
 }
+.btn-pad{
+    padding: 7px 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 48%;
+    box-sizing: border-box;
+}
+
 .h2{
     background-color: lavender;
     color:yellowgreen;
+}
 
+.texto {
+    font-size: 23;
+    color: rgb(7, 170, 7); 
+    font-weight: bold;
+    font-style: italic;
 }
 .actionBar2{
     background-color: yellowgreen;
     color: white;
+    vertical-align: center;
 }
 .action-bar{
     background-color: green;
     color: whitesmoke;
+    vertical-align: center;
 }
 .h3{
-    font-size: 20pt;
-    background-color: lavender;
-    color: rgb(105, 139, 35); 
+    font-size: 25;
+    color: rgb(7, 170, 7); 
+    font-weight: bold;
+    font-style: italic;
+    background: lavender;
+    
 }
 .image{
     text-align: center;
+    background: lavender;
 }

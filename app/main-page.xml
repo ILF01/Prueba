@@ -28,22 +28,26 @@ https://docs.nativescript.org/ui/components.
     core theme, such as p-20, btn, h2, and text-center. You can view a full list of the
     class names available for styling your app at https://docs.nativescript.org/ui/theme.
     -->
-    <ScrollView orientation="horizontal">
-    <StackLayout class="vertical p-20"> 
-        <StackLayout orientation="horizontal" android:horizontalAlignment="center">
-             <Image src="~/images/camaradibujo-iloveimg-resized.jpg" stretch= "none"></Image>
+    <ScrollView orientation="vertical">
+        <StackLayout class=" p-20"> 
+            <StackLayout orientation="horizontal" android:horizontalAlignment="center">
+                <Image src="~/images/camaradibujo-iloveimg-resized.jpg" stretch= "none"></Image>
+            </StackLayout>
+            <Label text="Usuario:" class="h2 text-center"/> 
+            <StackLayout class="hr-light m-5"></StackLayout>               
+            <TextField id="usuario" text="{{ usuario }}"/>
+            <Label text="Contraseña:" class="h2 text-center"/>
+            <StackLayout class="hr-light m-5"></StackLayout>
+            <TextField id="contra" text="{{ contra }}" secure= "true" keyboardType="number"/>
+            <WrapLayout  columns="auto,auto" rows="auto" row="1" col="2" horizontalAlignment="center">
+                <Button text="Aceptar" tap="{{ onTap }}" col="0" row="0" verticalAlignment="center" wight="auto" class="btn btn-primary btn-rounded-lg btn-pad" marginRight="5"/>
+                <Button text="Limpiar" tap="{{ limpia }}"  col="1" row="0" verticalAlignment="center" wight="auto" class="btn btn-primary btn-rounded-lg btn-pad" marginLeft="5"/>
+            </WrapLayout>
+            <WrapLayout  columns="auto,auto" row="1" col="2" horizontalAlignment="center">
+                <Button text="Auto Rellenar" tap="{{ auto }}" col="0" row="0" verticalAlignment="center" wight="auto" class="btn btn-primary btn-rounded-lg btn-pad" marginRight="5"/>
+                <Button text="Registrarse" tap="{{ registrar }}" col="1" row="0" verticalAlignment="center" wight="auto" class="btn btn-primary btn-rounded-lg btn-pad" marginLeft="5"/>
+            </WrapLayout>
+            <Label text="{{ message }}" class="h2 text-center" textWrap="true"/>
         </StackLayout>
-        <Label text="Usuario:" class="h2 text-center"/> 
-        <StackLayout class="hr-light m-5"></StackLayout>               
-        <TextField id="usuario" text="{{ usuario }}"/>
-        <Label text="Contraseña:" class="h2 text-center"/>
-        <StackLayout class="hr-light m-5"></StackLayout>
-        <TextField id="contra" text="{{ contra }}" secure= "true" />
-        <Button text="Aceptar" tap="{{ onTap }}" class="btn btn-primary btn-rounded-lg"/>
-        <Button text="Limpiar" tap="{{ limpia }}" class="btn btn-primary btn-rounded-lg"/>
-        <Button text="Auto Rellenar" tap="{{ auto }}" class="btn btn-primary btn-rounded-lg"/>
-        <Button text="Registrarse" tap="{{ registrar }}" class="btn btn-primary btn-rounded-lg"/>
-        <Label text="{{ message }}" class="h2 text-center" textWrap="true"/>
-    </StackLayout>
     </ScrollView>
 </Page>

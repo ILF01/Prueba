@@ -33,18 +33,18 @@ https://docs.nativescript.org/ui/components.
         <StackLayout orientation="horizontal" android:horizontalAlignment="center">
              <Image src="~/images/camaradibujo-iloveimg-resized.jpg" stretch= "none"></Image>
         </StackLayout>
-        <Label text="Gracias por su registro" class="h3 text-center" /> 
-        <StackLayout class="hr-dark m-5"></StackLayout>
-        <Label text="{{ usuario }}" class="h3 text-center"/> 
+        <TextView android:editable="false" text="Bienvenido a nuestra pagina" class="h3 text-center p-15" /> 
+        <Label text="{{ usuario }}" class="texto text-center"/> 
         <StackLayout class="hr-dark m-5"></StackLayout>  
-        <Label text="{{ contra }}" class="h3 text-center"/> 
+        <Label text="{{ contra }}" class="texto text-center"/> 
         <StackLayout class="hr-dark m-5"></StackLayout>
-        <Label text="{{ hora }}" class="h3 text-center"/>
+        <Label text="{{ hora }}" class="texto text-center"/>
         <StackLayout class="hr-dark m-5"></StackLayout>
-        <Label text="{{ fecha }}" class="h3 text-center"/> 
+        <Label text="{{ fecha }}" class="texto text-center"/> 
         <StackLayout class="hr-dark m-5"></StackLayout>   
-        <Button text="Volver" tap="{{ volver }}" class="btn btn-primary btn-rounded-lg"/>
-        <Button text="Recargar" tap="{{ recargar }}" class="btn btn-primary btn-rounded-lg"/>
-        
+        <WrapLayout  columns="auto,auto" rows="auto" row="1" col="2" horizontalAlignment="center">
+            <Button text="Volver" tap="{{ volver }}" col="0" row="0" verticalAlignment="center" class="btn btn-rounded-lg btn-pad" marginRight="5"/>
+            <Button text="Recargar" tap="{{ recargar }}" col="1" row="0" verticalAlignment="center" class="btn btn-rounded-lg btn-pad" marginLeft="5"/>
+        </WrapLayout>
     </StackLayout>
 </Page>
