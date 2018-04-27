@@ -33,7 +33,7 @@ https://docs.nativescript.org/ui/components.
         <StackLayout orientation="horizontal" android:horizontalAlignment="center">
              <Image src="~/images/camaradibujo-iloveimg-resized.jpg" stretch= "none"></Image>
         </StackLayout>
-        <Label text="Gracias por su registro" class="h3 text-center"/> 
+        <Label text="Gracias por su registro" class="h3 text-center" /> 
         <StackLayout class="hr-dark m-5"></StackLayout>
         <Label text="{{ usuario }}" class="h3 text-center"/> 
         <StackLayout class="hr-dark m-5"></StackLayout>  
